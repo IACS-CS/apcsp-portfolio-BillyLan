@@ -1,22 +1,49 @@
 ---
 import Page from "../components/Page.astro";
+import NavItem from '../components/NavItem.astro';
 ---
+ <link rel="stylesheet" href="./styles.css" />
 
 <Page title="FIXME Portfolio">
   <h1>
-    FIXME Portfolio
+    Billys Portfolio
   </h1>
   <h2>Project Menu</h2>
-  <nav>
-    <ul>
-      <li>
-        <a href="./projects/binary-search/"> 
-          Binary Search Project 
-        </a>
-      </li>
-      <!-- More projects to come soon! -->
-    </ul>
-  </nav>
+
+   <nav>
+     <ul>
+       <NavItem
+         title="Binary Search Project"
+         link="/projects/binary-search/"
+         imageSrc="/images/binary-search.png"
+         blurb="Learn about the binary search algorithm and its implementation."
+       />
+
+       <NavItem
+         title="APCSP Portfolio"
+         link="/projects/portfolio/"
+         imageSrc="/images/portfolio.png"
+         blurb="A showcase of all my AP Computer Science Principles projects."
+       />
+
+       <!-- Add more projects here in the future -->
+     </ul>
+   </nav>
+
   <h2>About Me</h2>
-  <p>All About me...</p>
+  <p>
+  <h2>About Me</h2>
+    <div>
+    <p>William (Billy) Lannan</p>
+    <p>17 years old</p>
+    <p>High School: Innovation Academy Charter School</p>
+    <p>12th grade</p>
+    <p>Birth Date: August, 27, 2007</p>
+    </p>
 </Page>
+
+
+<p>
+  &copy; 2024 William Lannan. 
+  All Rights Reserved.
+</p>
