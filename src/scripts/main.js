@@ -1,7 +1,7 @@
-import "../styles/styles.css";
+
 
 import "@picocss/pico/css/pico.min.css";
-
+import "../styles/styles.css";
 // Add imports here
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -15,3 +15,4 @@ if (typeof window !== "undefined") {
   // If you see a SSR error, try moving your code here!
   console.log("Hello world, browser :-)");
 }
+

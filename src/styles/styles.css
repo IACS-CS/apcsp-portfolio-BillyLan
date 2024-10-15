@@ -1,11 +1,22 @@
 
 /* Add any CSS styles or rules here */
 
-body {
-  background-color: #FFFDD0;
+html {
+  background-color: #404040;
+  
 }
 
 h1 {
-color: black;
- 
+
+ --pico-h1-color: #a5a5a5;
 }
+
+h2 {
+   --pico-h2-color: #a5a5a5;
+}
+
+[data-theme=dark] {
+  --pico-color : rgb(189, 189, 189);
+}
+
+
