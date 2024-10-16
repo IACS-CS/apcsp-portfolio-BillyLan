@@ -4,6 +4,19 @@ import NavItem from '../components/NavItem.astro';
 ---
  <link rel="stylesheet" href="./styles.css" />
 
+     <!-- Help from dev.to -->
+  <ul class="menu">
+  
+    <li><a class="menuItem" href="/projects/binary-search/">Binary Project</a></li>
+    <li><a class="menuItem" href="/projects/APCSP">APCSP</a></li>
+  </ul>
+  <button class="hamburger">
+
+    <!-- material icons https://material.io/resources/icons/ -->
+    <i class="menuIcon material-icons">menu</i>
+    <i class="closeIcon material-icons">close</i>
+  </button>
+
 <Page title="FIXME Portfolio">
   <h1>
     Billys Portfolio
@@ -21,7 +34,7 @@ import NavItem from '../components/NavItem.astro';
 
        <NavItem
          title="APCSP Portfolio"
-         link="/projects/portfolio/"
+         link="/projects/APCSP/"
          imageSrc="/images/portfolio.png"
          blurb="A showcase of all my AP Computer Science Principles projects."
        />
