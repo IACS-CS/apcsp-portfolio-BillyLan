@@ -19,9 +19,7 @@ Example of an "All Rights Reserved" statement in HTML:
 
 ```html
 <p>
-  &copy; 2024 Your Name. 
-  All Rights Reserved.
-</p>
+ d
 ```
 
 ---
