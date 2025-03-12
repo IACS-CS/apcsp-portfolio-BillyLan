@@ -7,3 +7,9 @@ export default defineConfig({
     },
   },
 });
+
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  base: '/apcsp-portfolio-BillyLan/', // Set the base URL for GitHub Pages
+});
