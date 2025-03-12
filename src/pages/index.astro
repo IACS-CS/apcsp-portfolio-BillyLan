@@ -5,19 +5,18 @@ import NavItem from '../components/NavItem.astro';
  <link rel="stylesheet" href="./styles.css" />
 
      <!-- Help from dev.to -->
----
-import { Astro } from 'astro';
-const base = Astro.site?.pathname || '';
----
 
-<ul class="menu">
-    <li><a class="menuItem" href={`${base}/projects/binary-search/`}>Binary Project</a></li>
-    <li><a class="menuItem" href={`${base}/projects/APCSP`}>APCSP</a></li>
-    <li><a class="menuItem" href={`${base}/projects/acknowledge-page`}>acknowledge page</a></li>
-    <li><a class="menuItem" href={`${base}/projects/Turtle-Project`}>Turtle page</a></li>
-    <li><a class="menuItem" href={`${base}/projects/Image-Filter`}>Image Filter</a></li>
-    <li><a class="menuItem" href={`${base}/projects/Systems-Disease`}>Systems Disease</a></li>
-</ul>
+
+ <ul class="menu">
+  
+    <li><a class="menuItem" href="/projects/binary-search/">Binary Project</a></li>
+    <li><a class="menuItem" href="/projects/APCSP">APCSP</a></li>
+    <li><a class="menuItem" href="/projects/acknowledge page">acknowledge page</a></li>
+    <li><a class="menuItem" href="/projects/Turtle-Project">Turtle page</a></li>
+    <li><a class="menuItem" href="/projects/Image Filter">Image Filter</a></li>
+    <li><a class="menuItem" href="/projects/Systems Disease">Systems Disease</a></li>
+  </ul>
+  <button class="hamburger">
   <button class="hamburger">
 
     <!-- material icons https://material.io/resources/icons/ -->
